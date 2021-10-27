@@ -1,54 +1,44 @@
-# Lap 1 Project
+# Love Island Reacts
+
+![Love Island Reacts Demo](preview.gif)
 
 ## Installation & usage
 
 ### Installation
 
-Clone or download the repo.
-Open terminal and navigate to `client`, run `npm install` to install dependencies.
-Open terminal and navigate to the `server` folder run `npm install` to install dependencies.
-
+-   Clone or download the repo.
+-   Open terminal and navigate to `client`, run `npm install` to install dependencies.
+-   Open terminal and navigate to the `server` folder run `npm install` to install dependencies.
 
 ### Usage
 
-Run `npm start` in the `server` folder to launch the server with `node`.
+-   Run `npm start` in the `server` folder to launch the server with `node`.
+-   Run `npm run server` in the `server` folder to launch the server with `nodemon`.
+-   Open the index.html file in the `client` folder in your preferred browser.
 
-Run `npm run server` in the `server` folder to launch the server with `nodemon`.
+## Deployment
 
-Open the index.html file in the `client` folder in your preferred browser.
-
-## Deployed
-Client deployed with Vercel - https://loveislandreacts.vercel.app/ 
-Server deployed with Haroku - https://island-reactions.herokuapp.com/posts
+-   Client deployed with Vercel - https://loveislandreacts.vercel.app/
+-   Server deployed with Heroku - https://island-reactions.herokuapp.com/
 
 ## Changelog
 
-###  client/bundle.js, client/scripts/helpers.js, client/scripts/index.js
-
-[x] Add basic functionality for creating post
-
-###  client/scripts/giphy.js
-
-[x] fetch giphy API
-
-### client/index.html, client/scripts/helpers.js, client/styles.css
-
-[x] Buttons work on front-end
-
- ### client/assets/gif.png 
- 
-[x] Adding files again, due to Github crashing
-
+-   Create models, routes and helpers
+-   Fetch from GIPHY API
+-   Create post, reactions and comments
+-   Buttons work on front-end
+-   Add tests and final styling
 
 ## Wins & Challenges
 
-### Wins 
-Getting the GIPHY API to work
-Getting the functionality for the reaction buttons
-Github recovery
+### Wins
+
+-   Users can search for and add gifs to posts
+-   Users can react to posts using emojis
+-   Recovering files after GitHub crashed
 
 ### Challenges
-Working with multiple branches and having client and server not separated
-Server Side tests
-Testing 
-Page refreshing - event.preventDefault
+
+-   Working with multiple branches and merge conflicts
+-   Testing with jest fetch mocking
+-   Prevent page refreshing after submissions
